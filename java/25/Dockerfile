@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:25-jdk-noble
+FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:25-jdk
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
